@@ -24,6 +24,7 @@
    <link rel="stylesheet" href="assets/css/fontawesome-pro.css">
    <link rel="stylesheet" href="assets/css/spacing.css">
    <link rel="stylesheet" href="assets/css/main.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -86,9 +87,13 @@
       <!-- Cart area start  -->
       <div class="cart-area section-space">
          <div class="container">
+            <div style="overflow-x:auto;">
             <div class="row">
                <div class="col-12">
-                  <div class="table-content table-responsive">
+                 
+                     <div style="overflow-x: auto; overflow-y: auto; max-height: 400px; width: 100%;">
+                     <table style="min-width: 800px; border-collapse: collapse; width: 100%;">
+                      <thead class="table-dark">
                      <table class="table">
                         <thead>
                            <tr>
@@ -340,6 +345,7 @@
    <script src="assets/js/ajax-form.js"></script>
    <script src="assets/js/beforeafter.jquery-1.0.0.min.js"></script>
    <script src="assets/js/main.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
